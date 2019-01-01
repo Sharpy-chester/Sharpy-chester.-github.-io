@@ -1,0 +1,135 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="smoothScroll.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="navbar">
+            <a style="margin-left: 50%" class="header" href="#one">
+                <h1>Home</h1>
+            </a>
+            <a class="header" href="#two">
+                <h1>About Me</h1>
+            </a>
+            <a class="header" href="#three">
+                <h1>Projects</h1>
+            </a>
+            <a class="header" href="#four">
+                <h1>Contact</h1>
+            </a>
+        </div>
+        <div id="one" class="first">
+            <div class="content">
+                <h2>Hi, I'm <br> <span class="name">Cameron Chester</span><br>Student | Game Developer</h2>
+                <a href="#two"><i class="fas fa-angle-down"></i></a>
+            </div>
+
+        </div>
+        <div id="two" class="second">
+            <div class="content">
+                <h3>About me</h3><br>
+                <h2 style="width: 70%">Hi! I'm Cameron. I did write a huge paragraph about me but it looked pretty bad and was fairly useless and unreadable. So heres a few facts about me in a presentable and (more) readable format!
+
+                </h2><br>
+                <ul>
+                    <li>I'm a 19 year-old student in my first year of University studying "Game design and Programming at Staffordshire University.</li><br>
+                    <li>I'm in Stoke-On-Trent for Uni and when I'm not at Uni I live down near Southampton.</li><br>
+                    <li>I have done a lot of experementing and creating in the Unity engine and almost released my first game before starting university. Unfortunately I didn't get time to finish it before starting uni but I plan to release it when I have more time.</li><br>
+                    <li>I studied Creative Media at Eastleigh College which focused on the games industry. This course is what got me really interested in making my own games.</li><br>
+                    <li>Probably not really relevent but I created this website myself with HTML/CSS/JS/JQuery. This isn't my first website but its the one I'm most proud of.</li><br>
+                    <li>The photography in the background was also done my me. Its of Lakeside Country Park in Eastleigh.</li>
+                </ul>
+                <br>
+                <a href="#three"><i class="fas fa-angle-down"></i></a>
+            </div>
+        </div>
+        <div id="three" class="third">
+            <div class="content">
+                <h3 style="margin-top: 5%">Projects</h3>
+                <div style="width: 1000%; margin-bottom: 5%;" class="slider">
+                    <input  type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide5" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide5" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide5" class="slider__nav"/>
+                    <div class="slider__inner">
+                        <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+
+                            <h2 class="slider__caption">TechnoInvaders</h2><br>
+                            <div class="block">
+                                <iframe style="display: inline; float: left;" width="560" height="315" src="https://www.youtube.com/embed/N2pdOY_2ntU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="slider__txt">TechnoInvaders is my best project at the moment and the one I'm most proud of. Its an arcade game for Android inspired by Space Invaders but modernised and with some rogue-lite elements sprinkled in. There is still a ways to go with this project and I plan to do a complete overhaul of the graphics, but its getting there and I'm hoping to release it at some point when I'm not busy with uni. Click the button to the right to go to the Github for this project. There you can find all the files for the game and a .pak file for Android.</p>
+                                <a style="display: inline-block" href="https://github.com/Sharpy-chester/TechnoInvaders"><img src="githubLogo.png" width="100px" height="100px"></a>
+                            </div>
+
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                            <h2 class="slider__caption">Shader Test</h2><br>
+                            <div class="block">
+                                <iframe style="display: inline; float: left;" width="560" height="315" src="https://www.youtube.com/embed/HYkPTXGpaJY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="slider__txt">This shader shown in the video is from testing and figuring out the shader graph tool in Unity which allows you to visually script shaders. For this project I've created an ocean shader (Shown to the left), and an outline pulsating glow shader. I plan to create more shaders in this project that I'll be able to use in other projects in the future.</p>
+                            </div>
+
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+                            <h2 class="slider__caption">FPS Test</h2><br>
+                            <div class="block">
+                                <iframe style="display: inline; float: left;" width="560" height="315" src="https://www.youtube.com/embed/tkxFgLD5mtc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="slider__txt">At the moment this is a simple FPS where you shoot the enemies until they all die. The enemies have some "AI" but its very basic and predictable at the moment. I have started implementing multiplayer and so far I've been able to get LAN working with UNet. When I get more time I will probably continue working on this as it was quite a fun project. Click the icon to the right to go the the Github for this project. </p>
+                                <a style="display: inline-block" href="https://github.com/Sharpy-chester/fpstest"><img src="githubLogo.png" width="100px" height="100px"></a>
+                            </div>
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                            <h2 class="slider__caption">Crates</h2><br>
+                            <div class="block">
+                                <iframe style="display: inline; float: left;" width="560" height="315" src="https://www.youtube.com/embed/w1StwcrTEQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="slider__txt">Crates is a 2d platformer where you have to get to the top of the container without getting hit by the falling crates. At the moment there are two levels and it has a main menu that allows you to switch between them. I may continue developing this one and eventually release it, most likely for Android. Click the icon to the right to go the the Github for this project.</p>
+                                <a style="display: inline-block" href="https://github.com/Sharpy-chester/crates"><img src="githubLogo.png" width="100px" height="100px"></a>
+                            </div>
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                            <h2 class="slider__caption">Frogger3D</h2><br>
+                            <div class="block">
+                                <iframe style="display: inline; float: left;" width="560" height="315" src="https://www.youtube.com/embed/WqRR_lRQ7sE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="slider__txt">Frogger3D is similar to frogger where you have to cross a road, but when its complete it will be an infinite runner set in 3d. You have to collect all the coins in each section to advance to the next section and with each section the cars will get faster. So far I've gotten two sections and im working on making it infinite. Click the icon to the right to go the the Github for this project.</p>
+                                <a style="display: inline-block" href="https://github.com/Sharpy-chester/frogger3d"><img src="githubLogo.png" width="100px" height="100px"></a>
+                            </div>
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                            <h2 class="slider__caption">Endless Roller</h2><br>
+                            <div class="block">
+                                <iframe style="display: inline; float: left;" width="560" height="315" src="https://www.youtube.com/embed/CX_J_Gky82g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="slider__txt">This is a game I made at University. Its an endless puzzle-platformer where you have to get a ball that you don't control as far as possible by shooting boxes as objects in the level. At the moment the basics are in and working. I just need to add more puzzles to the game which I've made extremely easy to integrate into the random generator. I'm still working on this game and might release it fully, probably on Android as mobile is a much better platform for endless games like this. Click the icon to the right to go the the Github for this project.</p>
+                                <a style="display: inline-block" href="https://github.com/Sharpy-chester/EndlessRoller"><img src="githubLogo.png" width="100px" height="100px"></a>
+                            </div>
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                            <h2 class="slider__caption">Unreal Tournement Level</h2><br>
+                            <div class="block">
+                                <iframe style="display: inline; float: left;" width="560" height="315" src="https://www.youtube.com/embed/fZQI5FyF6xE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="slider__txt">This is a level for Unreal Tournament that I created in the Unreal Tournament Editor (a restricted version of Unreal Engine) for University.</p>
+                                <a style="display: inline-block" href="https://github.com/Sharpy-chester/EndlessRoller"><img src="githubLogo.png" width="100px" height="100px"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="four" class="fourth">
+            <div class="content">
+                <h3>Contact</h3><br>
+                <h2>To contact me please email me at: <span style="font-weight: 900">cam-chester@hotmail.co.uk</span><br>Or text/call me at: <span style="font-weight: 900">07562520540</span><br>I also have a Twitter. I don't post much on there but I should reply fairly quickly on there if you DM me: <span style="font-weight: 900;"><a href="twitter.com/cameronwchester" style="text-decoration: none; color: white">@CameronWChester</a></span></h2>
+                
+            </div>
+
+        </div>
+    </body>
+    <script>
+
+    </script>
+</html>
