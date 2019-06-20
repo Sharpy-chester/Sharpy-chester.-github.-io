@@ -180,7 +180,7 @@ ul {
 }
 .first {
     background-image: url(IMG_0048.JPG);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: soft-light;
     width: 100%;
     height: 100%;
@@ -189,7 +189,7 @@ ul {
 }
 .second {
     background-image: url(IMG_0060.JPG);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: soft-light;
     width: 100%;
     height: 100%;
@@ -198,7 +198,7 @@ ul {
 }
 .third {
     background-image: url(IMG_9937.JPG);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: soft-light;
     width: 100%;
     height: 100%;
@@ -207,7 +207,7 @@ ul {
 }
 .fourth {
     background-image: url(IMG_9991.JPG);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: soft-light;
     width: 100%;
     height: 100%;
